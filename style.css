@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+html,
+body {
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+.behance{
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+
+}
+.main_photo{
+    width: 25rem;
+    margin-right: 25rem;
+
+}
+.main{
+    background-image: url(img/b1.jpg);
+    width: 100vw;
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 40px;
+}
+.about{
+    margin-top: -10px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    display: inline-block;
+    background-color: deeppink;
+}
+
+.menu a {
+    padding: 5px;
+    margin-right: 0px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu > .active a {
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+.section {
+    background-image: url(img/b1.jpg);
+    width: 100vw;
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 40px;
+}
+
+#works {
+   background-image: url(img/b2.jpg);
+}
+
+#shop {
+    background-image: url(img/b2.jpg);
+
+}
+
+#links {
+ background-image: url(img/b1.jpg);
+
+
+}
+
+
+
+h1 {
+    font-weight: 800;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: deeppink;
+}
+h2, h3, h4,  h5{
+    font-size: 1.6rem;
+}
+
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    color: deeppink;
+}
+
+ul {
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    color: deeppink;
+}
+
+
+ul {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    color: deeppink;
+    
+}
+
+
+h2 {
+    font-weight: 900;
+    font-family: 'Rubik Mono One', sans-serif;
+    color:deeppink;
+}
+
+h3 {
+    font-weight: 900;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: deeppink;
+}
+
+h4 {
+    font-weight: 900;
+    font-family: 'Rubik Mono One', sans-serif;
+    color:deeppink;
+}
+
+h5 {
+    font-weight: 900;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: deeppink;
+}
+
+
+.menu {
+    background-color: deeppink;
+
+}
+
+.menu {
+    padding: 30px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: deeppink;
+
+}
+
+.menu {
+    margin-left: 0px;
+}
+
+a:hover {
+    background-color: darkorchid;
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.lg-sub-html,
+#lg-counter {
+    color: deeppink;
+    font-size: 26px;
+}
+#lightbox {
+   position: fixed;
+    z-index: 100;
+    top:0;
+    width: 100%;
+    height: 100%;
+} 
+.links{ 
+    font-family: 'Jost', sans-serif; 
+    font-weight: 800; 
+    color: deeppink; 
+    margin-top: 15px; 
+} 
+.linkss{ 
+    display: flex; 
+    flex-direction: row; 
+    padding-left: 9px; 
+    color:deeppink; 
+} 
+.linkss a{ 
+    margin-top: 10px; 
+    padding-left: 3px; 
+    max-height: 50px; 
+    font-size: 45px; 
+} 
+.instag{ 
+    margin-left: 76px; 
+    width: 85px; 
+    height: 85px; 
+} 
+.linkss1{ 
+    display: flex; 
+    flex-direction: row; 
+    padding-left: -2px; 
+    color: deeppink; 
+    margin-left: 15px; 
+} 
+.linkss1 a{ 
+    margin-top: 10px; 
+    color: deeppink; 
+    padding: 0; 
+    max-height: 50px; 
+    font-family: 'Jost', sans-serif; 
+    font-size: 45px; 
+ 
+ 
+} 
+.linkss a{ 
+    color: deeppink; 
+    font-family: 'Jost', sans-serif; 
+} 
+.behance{ 
+    max-width: 65px; 
+    max-height: 85px; 
+} 
+.linkss2{ 
+    display: flex; 
+    flex-direction: row; 
+    padding-left: -2px; 
+    color: deeppink; 
+    margin-left: 15px; 
+} 
+.linkss2 a { 
+    margin-top: 10px; 
+    color: deeppink; 
+    padding: 0; 
+    max-height: 50px; 
+    font-family: 'Jost', sans-serif; 
+    font-size: 45px; 
+} 
+ 
+footer{ 
+    display: flex; 
+    margin-left: 165px; 
+ 
+}
